@@ -1,0 +1,52 @@
+body{
+    background-image: image(fundo2.png);
+    margin: 0;
+    padding: 0;
+    font-family: Arista Pro Alternate Light;
+    background-attachment: fixed;
+    }
+
+* { 
+    margin: 0; 
+     padding: 0;
+ }
+
+ @font-face {
+    font-family: Arista Light;
+    src: url('../fontes/arista-pro-alternate-light-trial-webfont.woff');
+}
+
+header nav {
+	padding: 15px 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.36) 0%, rgba(0,0,0,0.36) 100%);
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+	
+	font-size: 80px;
+	padding: 300px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: Arista Pro  Light
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #575757;
+    border-bottom:0.5px solid white;
+}
+
+.navbar-light .navbar-toggler {
+	color: #fff;
+	border-color: white;
+}
+
+.navbar-nav .navbar-collapse {
+    
+    text-align: center;
+    align-items: center;
+}
