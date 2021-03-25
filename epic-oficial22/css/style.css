@@ -17,7 +17,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
     font-family: "antipastoregular", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**home1**/
 #home1 img{
-    width: blckgroun;
+    width: bbckgroun;
 }
 
 /****** HOME ******/
@@ -839,7 +839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #sobre h1.portugues {
         position: absolute;
         left: 370px;
-        color: black;
+        color: rgb(219, 22, 22);
         font-size: 5em;
         text-align: center;
     }
@@ -889,191 +889,142 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
 }
-.slider{
-  
-  height: 760px;
-  width: 98vw;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.slides{
-    width: 500%;
-    height:760px;
-    display: flex;
-}
-
-.slides input{
-    display:none;
-}
-.slide{
-    width: 20%;
-    transition: 2s;
-}
-.slide img{
-    height: 760px;
-    width: 98vw;
-}
-/*cofigurando a parte de navegaçõ manual.*/
-.navegation-manual{
-    position: absolute;
-    width: 98vw;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-  
-}
-.manual-btn{
-    border: 2px solid #1C1C1C;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-
-}
-
-/*passagem de slides manual*/
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-.manual-btn:hover{
-    background: #1C1C1C;
-}
-
-#but1:checked ~ .primeiro{
-    margin-left: 0;
-}
-#but2:checked ~ .primeiro{
-    margin-left: -20%;
-}
-#but3:checked ~ .primeiro{
-    margin-left: -40%;
-}
-#but4:checked ~ .primeiro{
-    margin-left: -60%;
-}
-/*
-.navegacao-auto{
-    position: absolute;
-    display: flex;
-    width: 98vw;
-    justify-content: center;
-    margin-top: -40px;
-}
-.navegacao-auto div{
-    border: 2px solid #1C1C1C;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-}
-.navegacao-auto div:not(last-child){
-    margin-right: 40px;
-}
-#but1:checked ~ .navegacao-auto .auto-btn1{
-    background: #1C1C1C;
-}
-#but2:checked ~ .navegacao-auto .auto-btn2{
-    background: #1C1C1C;
-}
-#but3:checked ~ .navegacao-auto .auto-btn3{
-    background: #1C1C1C;
-}
-#but4:checked ~ .navegacao-auto .auto-btn4{
-    background: #1C1C1C;
-}
-*/
-/*area de edição dos textos
-.textos{
-  overflow: hidden;
-  height: 760px;
-  width: 98vw;
-  border-radius: 10px;
-  
-}
-.texto h1{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    margin-top: -800px;
-    display: flex;
-    justify-content: center;
-}
-.texto{
+/**configurando os slides*/
+ .slider{
+     top:10%;
      position: relative;
-    width: 500%;
-    height:760px;
-    display: flex;
+     width: 100%;
+     padding: 0%;
+ }
+ .myslider{
+     height: 100%;
+     display: none;
+     overflow: hidden;
+ }
+ .prev, .next{
+     position: absolute;
+     top: 50%;
+     transform: translate(0, -50);
+     font-size: 50px;
+     padding: 15px;
+     cursor: pointer;
+     color: rgb(255, 254, 254);
+     user-select: none;
+    }
+.prev:hover, .next:hover{
+    color: #71db34;
 }
-.texto input{
-    display: none;
+.next{
+    right: 0;
 }
-.slide1{
-    width: 20%;
-    transition: 2s;
-}
-
-.navegation-manual-tex{
+.dotsbox{
     position: absolute;
-    width: 98vw;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
 }
-.manual-btn-tex{
-     border: 2px solid #1C1C1C;
-    padding: 5px;
-    border-radius: 10px;
+.dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
 }
-
-/*passagem de slides manual*
-.manual-btn-tex:not(:last-child){
-    margin-right: 40px;
+.active, .dot:hover{
+    border-color: #000;
 }
-.manual-btn-tex:hover{
-    background-color: #1C1C1C;
+.text{
+    position: absolute;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 35px;
+    top:40%;
+    left: 15%;
+    -webkit-animation-name: posi;
+    -webkit-animation-duration:2s;
+    animation-name: posi;
+    animation-duration: 2s;
+    z-index: 1;
 }
-
-#text1:checked ~ .numero1{
-    margin-left: 0;
+@-webkit-keyframes posi{
+    from{left:25%;}
+    to {left:15%;}
 }
-#text2:checked ~ .numero1{
-    margin-left: -20%;
-}
-#text3:checked ~ .numero1{
-    margin-left: -40%;
-}
-#text4:checked ~ .numero1{
-    margin-left: -60%;
+@keyframes posi{
+    from{left:25%;}
+    to {left:15%;}
 }
 /*
-.navegacao-auto-tex{
-    position: absolute;
-    display: flex;
-    width: 98vw;
-    justify-content: center;
-    margin-top: 760px;
+.text h1{
+    color: #3498db;
+    font-weight: bold;
+    margin: 20px;
+}*/
+.text p{
+    font-weight:bold;
+    font-size: 20px;
 }
-.navegacao-auto-tex div{
-    border: 2px #1C1C1C;
-    padding: 5px;
-    border-radius: 10px
-    transition:1s;
+
+.slider img{
+    transform: scale(1.5, 1.5);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration:40s;
+    animation-name: zoomin;
+    animation-duration: 40s;
 }
-.navegacao-auto-tex div:not(last-child){
-    margin-right: 40px;
+@-webkit-keyframes zoomin{
+    from{transform: scale(1,1);}
+    to{transform: scale(1.5,1.5);}
+
 }
-#text1:checked ~ .navegacao-auto-tex .auto-tex1{
-    background: : #1C1C1C;
+@keyframes zoomin{
+    from{transform: scale(1,1);}
+    to{transform: scale(1.5,1.5);
+    }
 }
-#text2:checked ~ .navegacao-auto-tex .auto-tex1{
-    background: : #1C1C1C;
+@media screen and (max-width: 800px){
+    .myslider{
+        height: 500px;
+    }
+     .text{
+         line-height: 25px;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -webkit-animation-name: posi2;
+         -webkit-animation-duration:2s;
+         animation-name: posi2;
+         animation-duration: 2s;
+     }
+     @-webkit-keyframes posi2{
+        from{top:35%;}
+        to{top:50%}
+    }
+     @keyframes posi2{
+         from{top:35%;}
+         to{top:50%}
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text p{
+        font-size: 13px;
+    }
 }
-#text3:checked ~ .navegacao-auto-tex .auto-tex1{
-    background: : #1C1C1C;
+@media screen and (max-width: 520px){
+
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 13px;
+    }
 }
-#text4:checked ~ .navegacao-auto-tex .auto-tex1{
-    background: : #1C1C1C;
-}
-*/
+
+/*Area dos  cases*/
 
 #sobre section{
     min-height: 100vh;
