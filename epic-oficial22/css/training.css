@@ -1,12 +1,13 @@
+/*
 body{
-background: url(../img/fundo3.png);
+background: rgba(11, 31, 145, 0.616);
 margin: 0;
 padding: 0;
 font-family: "Open Sans", sans-serif;
 background-size: cover;
 background-attachment: fixed;
 background-attachment: fixed;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "antipastoregular", sans-serif;
@@ -14,16 +15,79 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px 0;
     padding: 0;
   }
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 
-* { 
-    margin: 0; 
-    padding: 0;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/img/fundo3.1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.main .content{
+    max-width: 800px;
+
+
+}
+.main .content{
+    max-width: 800px;
+}
+.text-animado{
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+}   
+.text-animado h3{
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 2px;
+}
+.text-animado h3:nth-child(1){
+    animation: text-move 15s infinite;
+}
+@keyframes text-move{
+    0%{
+        margin-top: 0;
+    }
+    25%{
+        margin-top: -70px;
+    }
+    50%{
+        margin-top:-170px;
+    }
+    75%{
+        margin-top:-260px;
+    }
+    100%{
+        margin-top: 0;
+    }
+    
+}
+.rede_social{
+    margin-top: 50px;
+}
+.rede_social a{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 30px;
+}
 
 #header {
     padding: 10px 0;
@@ -109,269 +173,4 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     color: white;
     font-size: 50px;
-}
-
-#img1:hover, #img2:hover, #img3:hover, #img4:hover{	
-    transition: 0.2s;
-	transform: scale(1.1);
-}
-
-.owl-carousel img {
-    height: 391,922;
-    width: 391,922;
-    margin-top: 380px;
-    border-radius: 50%;
-    text-align: center;   
-     
-}
-
-#botao_anterior, #botao_proximo {
-    position: absolute;
-    top: 440px;
-}
-
-#botao_anterior {
-    left: 320px;
-}
-
-#botao_proximo {
-    right: 360px;
-}
-
-.navegacao #botao_anterior {
-    text-decoration: none;
-    background: transparent;
-    color: white;
-    height: 40px;
-    border: 0;
-    padding: 32px;
-}
-.navegacao #botao_proximo {
-    text-decoration: none;
-    background: transparent;
-    color: white;
-    height: 40px;
-    border: 0;
-    padding: 32px;
-}
-#botao_anterior:focus, select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    
-} 
-#botao_proximo:focus, select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-} 
-
-#botao1 {
-    font-family: 'antipastoregular', sans-serif;
-    margin-left: 5px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    color: black;
-    padding-bottom: 8px
-   
- 
-}
-
-#teste{
-    margin-top: 125px;
-    opacity: 0.4;
- 
-}
-.centralizar {
-    text-align: center;
-}
-
-#ed{
-    margin-left: -90px;
-}
-
-p {
-    color: white;
-    font-family: Arista Pro Alternate Light;
-    font-size: 25px;
-}
-
-#descricao {
-    background-color: transparent;
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -130px;
-}
-
-#public {
-    background-color: transparent;
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -130px;
-}
-
-#local {
-    background-color: transparent;
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -130px;
-}
-
-#foto {
-    background-color: transparent;
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -130px;
-}
-
-#inscricao {
-    background-color: transparent;
-    width: 500px;
-    height: 300px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -130px;
-}
-
-.escondido {
-    display: none;
-}
-
-#bt1, #bt2, #bt3, #bt4, #bt5 {
-    background: transparent;
-    border: none;
-    text-decoration: none;
-    color: white;
-    font-family: Arista Pro Alternate Light;
-    font-size: 20px;
-    margin-top: 380px;
-    padding-bottom: 25px;   
-    margin-right: 132px;
-    margin-left: -120px;
-    font-size: 30px;
-    
-    
-}
-button:hover{
-    cursor: pointer;
-}
-
-*:focus {
-    outline: 0 !important;
-}
-
- #bt1:hover{
-     color: gray;
-     border-bottom:0.5px solid gray;
- }
- 
- #bt2:hover{
-    color: gray;
-    border-bottom:0.5px solid gray;
-}
-
-#bt3:hover{
-    color: gray;
-    border-bottom:0.5px solid gray;
-}
-
-#bt4:hover{
-    color: gray;
-    border-bottom:0.5px solid gray;
-}
-
-#bt5:hover{
-    color: gray;
-    border-bottom:0.5px solid gray;
-}
-
-#botoes {
-    margin-left: 280px;
-}
-
-#curso h4 {
-    color: white;
-    font-size: 1.2em;
-    padding-right: 50px;
-    background-color: #fff;
-}
-
-.btn {
-    border-radius: 50px;
-    padding: 7px 40px;
-    font-weight: 600;
-    margin-left: 50px;
-    margin-top: 12px;
-}
-
-.btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-}
-
-
-#curso img{
-    margin-top: 200px;
-    margin-left: -45px;
-    
-}
-
-#curso:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-  
-#curso .curso-container {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-#curso .curso-container img {
-    color: white;
-    margin-top: -200px;
-    font-size: 4.5em;
-    font-weight: 700;
-    line-height: 56px;
-    opacity: 0.3;
-}
-
-#curso .curso-container h1 {
-    color: #eee;
-    margin-top: -33px;
-    font-size: 4.8em;
-    margin-bottom: 45px;
-}
-
-#curso .curso-container h3 {
-    color: #eee;
-    
-    font-size: 2.8em;
- 
-}
-
-#curso .curso-container {
-    text-align: center;
-}
-
-
-.active > button {
-    color:red;
 }
