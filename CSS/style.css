@@ -3209,3 +3209,226 @@ table td{
    to{transform: scale(1.5,1.5);
    }
 }
+
+@media(max-width: 340px){
+    
+    
+    .home .slider .prev{
+        top: 50%;
+        transform: translate(0, -50);
+        font-size: 15px;
+        padding: 15px;
+        
+    
+    }
+       .home .slider .next{
+       top: 50%;
+       transform: translate(0, -50);
+       font-size: 15px;
+       padding: 15px;
+       
+     
+    }
+    
+    .home .slider .dotsbox .dot{
+       width: 12px;
+       height: 12px;
+       border-radius: 50%;
+       margin: 0 10px;
+       
+    }
+   
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:400px;
+      height: 400px;
+    }
+    
+    
+}
+@media (min-width: 340.1px) and (max-width: 400px){
+
+    .home .slider .prev{
+        top: 50%;
+        transform: translate(0, -50);
+        font-size: 15px;
+        padding: 15px;
+        
+    
+    }
+       .home .slider .next{
+       top: 50%;
+       transform: translate(0, -50);
+       font-size: 15px;
+       padding: 15px;
+       
+     
+    }
+    
+    .home .slider .dotsbox .dot{
+       width: 12px;
+       height: 12px;
+       border-radius: 50%;
+       margin: 0 10px;
+       
+    }
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 10px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:400px;
+      height: 400px;
+    }
+    
+}
+
+@media (min-width: 400.1px) and (max-width: 500px){
+
+    .home .slider .prev{
+        top: 50%;
+        transform: translate(0, -50);
+        font-size: 25px;
+        padding: 15px;
+        
+    
+    }
+       .home .slider .next{
+       top: 50%;
+       transform: translate(0, -50);
+       font-size: 25px;
+       padding: 15px;
+       
+     
+    }
+    
+    .home .slider .dotsbox .dot{
+       width: 12px;
+       height: 12px;
+       border-radius: 50%;
+       margin: 0 10px;
+       
+    }
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 15px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:500px;
+      height: 500px;
+    }
+    
+}
+@media (min-width: 500.1px) and (max-width: 600px){
+
+    .home .slider .prev{
+        top: 50%;
+        transform: translate(0, -50);
+        font-size: 35px;
+        padding: 15px;
+        
+    
+    }
+       .home .slider .next{
+       top: 50%;
+       transform: translate(0, -50);
+       font-size: 35px;
+       padding: 15px;
+       
+     
+    }
+    
+    .home .slider .dotsbox .dot{
+       width: 12px;
+       height: 12px;
+       border-radius: 50%;
+       margin: 0 10px;
+       
+    }
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 15px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:700px;
+      height: 500px;
+    }
+    
+}
+@media (min-width: 600.1px) and (max-width: 700px){
+
+    
+    
+   
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 15px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:900px;
+      height: 500px;
+    }
+    
+}
