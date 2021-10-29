@@ -3153,7 +3153,7 @@ table td{
 .home .slider .dotsbox .dot:hover{
     border-color: #71db34;
 }
-.active{
+.home .slider .dotsbox .active{
    border-color: #71db34;
 }
 .home .slider .myslider .transparente{
