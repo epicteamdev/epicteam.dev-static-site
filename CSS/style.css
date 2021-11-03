@@ -1120,15 +1120,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #000;
+    color: #000;
     font-weight: 600;
 }
-
 .sobre a:hover {
 	text-decoration: none; 
 	color: #2dc997;
 	}
-
 .sobre .bloco{
     padding-left: 60px;
     padding-right: 60px;
@@ -1138,10 +1136,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 80px;
-    text-align: center;
-    color:#fff;
-    top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    color:#4a86bc;
+    top: 80px;
     margin-left: 40px; 
 }
 .sobre .content{
@@ -1149,13 +1147,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;   
+    margin-top: 0px;
+
 }
 
 .sobre .content .col-left{
     position: relative;
     width: 45%;
-    margin-top: 45px;
+    margin-top: 50px;
 
 }
 .sobre .content .col-right{
@@ -1167,7 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .sobre .content .col-left .img-card{
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .sobre .content .col-left .img-card img{
@@ -1196,7 +1195,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre .content .col-right .btn{
     color: aliceblue;
-    background: #a0949148;
+    background: #4a86bc;
     font-size: 1em;
     font-weight: 600;
     display:inline-block;
@@ -1214,17 +1213,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre .content .col-right p{
     font-size: 1em;
-    color: #fff;
+    color: black;
 }
 .sobre .content .col-right h4{
-    color: #fff;
+    color: #466fa6;
 
 }
 .sobre .content .col-right h2{
     color: #fff;
 }
 .sobre{
-    background-color:#212529;
+    background-color:rgba(255, 255, 255, 0.808);
 }
 
 /*SOBRE ajustes moobile*/
