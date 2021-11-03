@@ -885,72 +885,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: 30px;
 }
 
-/*TRABALHANDO SOBRE*/
-.inver .title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-.inver .section-title{
-    position: relative;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 50px;
-    color: rgb(17, 14, 14);
-    
-}
-.inver .content-1{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.inver .content-1 .col-left{
-    position: relative;
-    width: 45%;
-
-}
-.inver .content-1 .col-right{
-    position: relative;
-    width: 50%;
-}
-
-.inver .content-1 .col-left .img-card{
-    position: relative;
-    width: 100%;
-    min-height: 500px;
-    
-   
-}
-
-.inver .content-1 .col-left .img-card img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-   
-}
-.inver .content-1 .col-right p{
-    font-size: 1em;
-    color:  rgb(17, 14, 14);
-}
-.inver .content-1 .col-right ul{
-    font-size: 1em;
-    color:  rgb(17, 14, 14);
-}
-.inver .content-1 .col-right h2{
-    color:  rgb(17, 14, 14);
-}
-
-
 /*trabalhando cabeçario*/
 #header {
     padding: 10px 0;
@@ -1060,9 +994,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*configurando Sobre*/
-.sobre{
-    margin-top: 0%;
-}
 .sobre a{
     font-size: 13px;
     text-transform: uppercase;
@@ -1075,8 +1006,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #2dc997;
 	}
 .sobre .bloco{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .sobre .title h1{
     position: relative;
