@@ -1111,10 +1111,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre1 .content-1 .col-left p{
     font-size: 1em;
-    color: black;
+    color: #fff;
 }
 .sobre1 .content-1 .col-left h1{
-    color: #000;
+    color: #fff;
 }
 .sobre1 .content-1 .col-left h2{
     color: #fff;
@@ -1123,7 +1123,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #4a86bc;
 }
 .sobre1{
-    background-color:#fff;
+    background-color:rgb(39, 37, 37);
     padding: 100px 200px;
 }
 .event-container{
