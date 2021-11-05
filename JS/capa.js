@@ -1,5 +1,5 @@
-const depo_myslide = document.querySelectorAll('.depo_myslider'),
-	  dot = document.querySelectorAll('.depo_dot');
+const depo_myslide = document.querySelectorAll('.myslider'),
+	  dot = document.querySelectorAll('.dot');
 let counter = 1;
 slidefun(counter);
 
@@ -13,7 +13,7 @@ function plusSlides(n) {
 	slidefun(counter);
 	resetTimer();
 }
-function currentSlides(n) {
+function currentSlide(n) {
 	counter = n;
 	slidefun(counter);
 	resetTimer();
