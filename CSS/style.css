@@ -92,6 +92,26 @@ h1, h2, h3, h4, h6{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+/*** INCIATIVAS *****/
+
+#iniciativas {
+    background: #1d2840;
+    padding: 150px 0px;
+}
+
+#iniciativas h4 {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+#iniciativas img:hover {
+    width: 320px;
+}
+
 /* FOOTER  */
 #contato {
     background:#1d2840;
@@ -156,7 +176,30 @@ h1, h2, h3, h4, h6{
         font-size: 1em;
     }
 
-   
+    /* INICIATIVAS */
+
+    #iniciativas .col-md-4 {
+        text-align: center;
+    }
+
+    #iniciativas img{
+        width: 100px;
+    }
+
+    #iniciativas img:hover{
+        width: 260px;
+    }
+
+    #iniciativas h4 {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    #iniciativas h1 {
+        margin-left: 20px;
+        font-size: 1em;
+        color: #fff;
+    }
+
     /* sobre */
     #sobre h1.ingles {
         color: rgba(0, 0, 0, 0.2);
@@ -548,6 +591,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     /* INICIATIVAS */
 
+    #iniciativas .col-md-4 {
+        text-align: center;
+    }
+
+    #iniciativas img{
+        width: 100px;
+    }
+
+    #iniciativas img:hover{
+        width: 150px;
+    }
+
+    #iniciativas h4 {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    #iniciativas h1 {
+        margin-left: 20px;
+        font-size: 1em;
+        color: #fff;
+    }
+
+
     /* sobre */
     #sobre h1.ingles {
         color: rgba(0, 0, 0, 0.2);
@@ -665,6 +731,28 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     /* INICIATIVAS */
+
+    #iniciativas .col-md-4 {
+        text-align: center;
+    }
+
+    #iniciativas img{
+        width: 200px;
+    }
+
+    #iniciativas img:hover{
+        width: 210px;
+    }
+
+    #iniciativas h4 {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    #iniciativas h1 {
+        margin-left: 20px;
+        font-size: 1em;
+        color: #fff;
+    }
 
     /* sobre */
     #sobre h1.ingles {
