@@ -114,12 +114,12 @@ h1, h2, h3, h4, h6{
 
 /* FOOTER  */
 #contato {
-    background:#1d2840;
+    background:#ea5036;
     padding: 50px 0px 20px 0px;
 }
 
 #contato h4 {
-    color: #919496;
+    color: black;
     text-transform: uppercase;
     font-size: 1em;
 }
@@ -1208,7 +1208,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #000;
+    background-color: #ffb701;
     font-weight: 600;
 }
 
@@ -1224,10 +1224,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre .title h1{
     position: relative;
-    font-size: 2.2em;
+    font-size: 3.2em;
     font-weight: 800;
     margin-bottom: 80px;
-    text-align: center;
+    text-align: left;
     color:#fff;
     top: 50px;
     margin-left: 40px; 
@@ -1312,7 +1312,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 .sobre{
-    background-color:#212529;
+    background-color:#ffb70188;
 }
 
 /*SOBRE ajustes moobile*/
@@ -2474,15 +2474,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     
 }
 .Cases{
-    background-color: #fff;
+    background-color: #7fc5a2;
 }
 .Cases .titlo h1{
     position: relative;
-    font-size: 2.2em;
+    font-size: 3.2em;
     font-weight: 800;
     margin-bottom: 50px;
     text-align: left;
-    color:#466fa6;
+    color:#fff;
     top: 40px;
     margin-left: 40px;
 }
@@ -2492,6 +2492,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     flex-wrap: wrap;
     flex-direction:row;
     margin-top: 0px;
+   
 }
 .Cases .contener .card{
     background: #fff;
