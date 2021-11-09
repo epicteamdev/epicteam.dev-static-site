@@ -119,9 +119,10 @@ h1, h2, h3, h4, h6{
 }
 
 #contato h4 {
-    color: black;
+    color: #1d2840;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 800;
 }
 
 #contato .navbar-nav a {
@@ -283,7 +284,7 @@ h1, h2, h3, h4, h6{
     }
     /*contato */
     #contato {
-        background:#1d2840;;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -403,7 +404,7 @@ h1, h2, h3, h4, h6{
 
     /*contato */
     #contato {
-        background:#1d2840;;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -672,7 +673,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* CONTATO */
 
     #contato {
-        background:#1d2840;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -812,7 +813,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     /* CONTATO */
     #contato {
-        background:#1d2840;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -1301,11 +1302,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #000;
 }
 .sobre .content .col-right p{
-    font-size: 1em;
-    color: #fff;
+    font-size: 2em;
+    color: #070707;
 }
-.sobre .content .col-right h4{
+.sobre .content .col-right .content-title b h4{
     color: #fff;
+    font-size: 2em;
 
 }
 .sobre .content .col-right h2{
@@ -1484,10 +1486,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 1200.98px) and (max-width: 1399.98px) {
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
+            font-size: 5em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
+        font-size: 1.5em;
+        font-weight: 600;
     } 
     .sobre .content .col-left .img-card iframe{
       
@@ -1498,11 +1501,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (min-width: 1400px) and (max-width: 1500.98px) {
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card iframe{
       
         height: 400px;
@@ -1510,12 +1514,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 @media (min-width: 1500.99px) and (max-width: 1900.98px) {
-        .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.8em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.9em;
-    } 
+    .sobre  .bloco .content .col-right .content-title{
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card {
         min-height: 0px;
     }
@@ -1529,12 +1534,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 @media (min-width: 1910.99px) and (max-width: 3000.98px) {
-        .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.8em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 1.2em;
-    } 
+    .sobre  .bloco .content .col-right .content-title{
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card {
         min-height: 0px;
     }
@@ -2474,7 +2480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     
 }
 .Cases{
-    background-color: #7fc5a2;
+    background-color: #1d2840;
 }
 .Cases .titlo h1{
     position: relative;
@@ -2482,7 +2488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 800;
     margin-bottom: 50px;
     text-align: left;
-    color:#fff;
+    color:#ffffff;
     top: 40px;
     margin-left: 40px;
 }
@@ -2532,8 +2538,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-top: 10px;
     
 }
+.Cases .linha .card .infoG1{
+    padding-top: 10px;
+    
+}
 .Cases .contener .card .info h3{
-    font-size: 1.8em;
+    font-size: 1.77em;
     font-weight: 700;
     margin: 10px;
 }
@@ -2548,6 +2558,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 10px;
 }
 .Cases .contener .card .infoG p{
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG1 h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG1 p{
     font-size: 0.9em;
     font-weight: 700;
     margin: 10px;
@@ -2967,10 +2987,10 @@ table td{
 }
 
 .home .slider .prev:hover {
-   color: #71db34;
+   color: #ffb701;
 }
 .home .slider  .next:hover{
-    color: #71db34;
+    color: #ffb701;
 }
 .home .slider .next{
    right: 0;
@@ -2994,10 +3014,10 @@ table td{
  
 }
 .home .slider .dotsbox .dot:hover{
-    border-color: #71db34;
+    border-color: #ffb701;
 }
 .home .slider .dotsbox .active{
-   border-color: #71db34;
+   border-color: #ffb701;
 }
 .home .slider .myslider .transparente{
    background: #0000007e;
