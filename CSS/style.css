@@ -3370,3 +3370,30 @@ table td{
     }
     
 }
+
+@media (min-width: 1800.1px) and (max-width: 2000px){
+
+    
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 50px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 20px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:2000px;
+      height: 800px;
+    }
+    
+}
