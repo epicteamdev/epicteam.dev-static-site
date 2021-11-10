@@ -42,7 +42,7 @@ h1, h2, h3, h4, h6{
     float: left;
 }
 
-#header.header-ativo {
+#header {
     background: rgba(0,0,0,0.6) !important;
 }
 
