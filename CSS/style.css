@@ -114,14 +114,15 @@ h1, h2, h3, h4, h6{
 
 /* FOOTER  */
 #contato {
-    background:#1d2840;
+    background:#ea5036;
     padding: 50px 0px 20px 0px;
 }
 
 #contato h4 {
-    color: #919496;
+    color: #1d2840;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.1em;
+    font-weight: 800;
 }
 
 #contato .navbar-nav a {
@@ -183,7 +184,7 @@ h1, h2, h3, h4, h6{
     }
 
     #iniciativas img{
-        width: 100px;
+        width: 200px;
     }
 
     #iniciativas img:hover{
@@ -192,7 +193,7 @@ h1, h2, h3, h4, h6{
 
     #iniciativas h4 {
         margin-left: 20px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     #iniciativas h1 {
         margin-left: 20px;
@@ -283,7 +284,7 @@ h1, h2, h3, h4, h6{
     }
     /*contato */
     #contato {
-        background:#1d2840;;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -293,7 +294,7 @@ h1, h2, h3, h4, h6{
     }
 
     #contato h4 {
-        color: #919496;
+        color: #1d2840;
         text-transform: uppercase;
         font-size: 1em;
         margin-top: 15px;
@@ -403,7 +404,7 @@ h1, h2, h3, h4, h6{
 
     /*contato */
     #contato {
-        background:#1d2840;;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -413,7 +414,7 @@ h1, h2, h3, h4, h6{
     }
 
     #contato h4 {
-        color: #919496;
+        color: #1d2840;
         text-transform: uppercase;
         font-size: 1em;
         margin-top: 15px;
@@ -454,6 +455,29 @@ h1, h2, h3, h4, h6{
         margin-top:auto;
         margin-left: 10px;
     }
+    
+    #iniciativas .col-md-4 {
+        text-align: center;
+    }
+
+    #iniciativas img{
+        width: 250px;
+    }
+
+    #iniciativas img:hover{
+        width: 270px;
+    }
+
+    #iniciativas h4 {
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+    #iniciativas h1 {
+        margin-left: 20px;
+        font-size: 1em;
+        color: #fff;
+    }
+
 
 }
 
@@ -596,16 +620,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #iniciativas img{
-        width: 100px;
+        width: 300px;
     }
 
     #iniciativas img:hover{
-        width: 150px;
+        width: 380px;
     }
 
     #iniciativas h4 {
         margin-left: 20px;
-        font-size: 1em;
+        font-size: 1.8em;
     }
     #iniciativas h1 {
         margin-left: 20px;
@@ -672,7 +696,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* CONTATO */
 
     #contato {
-        background:#1d2840;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -741,7 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #iniciativas img:hover{
-        width: 210px;
+        width: 240px;
     }
 
     #iniciativas h4 {
@@ -812,7 +836,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     /* CONTATO */
     #contato {
-        background:#1d2840;
+        background:#ea5036;
         padding: 50px 0px 20px 0px;
     }
 
@@ -821,7 +845,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     #contato h4 {
-        color: #919496;
+        color: #1d2840;
         text-transform: uppercase;
         font-size: 1em;
         margin-top: 10px;
@@ -909,7 +933,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
 }
 .home .inicio .cont-inicio .transparente{
-   background: #0f0f0f8a;
+   background: #0f0f0f63;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1208,7 +1232,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #000;
+    background-color: #ffb701;
     font-weight: 600;
 }
 
@@ -1224,10 +1248,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .sobre .title h1{
     position: relative;
-    font-size: 2.2em;
+    font-size: 3.2em;
     font-weight: 800;
     margin-bottom: 80px;
-    text-align: center;
+    text-align: left;
     color:#fff;
     top: 50px;
     margin-left: 40px; 
@@ -1301,18 +1325,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #000;
 }
 .sobre .content .col-right p{
-    font-size: 1em;
-    color: #fff;
+    font-size: 2em;
+    color: #070707;
 }
-.sobre .content .col-right h4{
+.sobre .content .col-right .content-title b h4{
     color: #fff;
+    font-size: 2em;
 
 }
 .sobre .content .col-right h2{
     color: #fff;
 }
 .sobre{
-    background-color:#212529;
+    background-color:#ffb70188;
 }
 
 /*SOBRE ajustes moobile*/
@@ -1322,7 +1347,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding-right: 20px;
     }
     .sobre .title h1{
-        font-size: 1.8em;
+        font-size: 3em;
     }
     .sobre  .bloco .content{
         flex-direction: column;
@@ -1337,10 +1362,10 @@ body.mobile-nav-active #mobile-nav-toggle {
         min-height: 0px;
     }
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.4em;
+            font-size: 1.5em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
+        font-size: 1em;
     } 
     .sobre .content .col-left .img-card iframe{
        margin-left: 2px;
@@ -1354,7 +1379,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding-right: 20px;
     }
     .sobre .title h1{
-        font-size: 1.8em;
+        font-size: 3em;
     }
     .sobre  .bloco .content{
         flex-direction: column;
@@ -1369,10 +1394,10 @@ body.mobile-nav-active #mobile-nav-toggle {
         min-height: 0px;
     }
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.4em;
+            font-size: 2em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
+        font-size: 1em;
     } 
     .sobre .content .col-left .img-card iframe{
         margin-left: 2px;
@@ -1412,7 +1437,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     
     .sobre .title h1{
-        font-size: 2em;
+        font-size: 3em;
     }
     .sobre  .bloco .content{
         flex-direction: column;
@@ -1470,10 +1495,9 @@ body.mobile-nav-active #mobile-nav-toggle {
         width: 100%;
         max-height: 270px;
     }
-    .sobre .content .col-right .img-logo{
-        width: 100%;
-        max-height: 350px;
-    }
+    .sobre  .bloco .content .col-right .content-title{
+        font-size: 3em;
+    } 
     .sobre .content .col-left .img-card iframe{
         margin-left: 2px;
         height: 400px;
@@ -1484,10 +1508,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 1200.98px) and (max-width: 1399.98px) {
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
+            font-size: 5em;
     }
     .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
+        font-size: 1.5em;
+        font-weight: 600;
     } 
     .sobre .content .col-left .img-card iframe{
       
@@ -1498,11 +1523,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (min-width: 1400px) and (max-width: 1500.98px) {
     .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.5em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.8em;
-    } 
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card iframe{
       
         height: 400px;
@@ -1510,12 +1536,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 @media (min-width: 1500.99px) and (max-width: 1900.98px) {
-        .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.8em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 0.9em;
-    } 
+    .sobre  .bloco .content .col-right .content-title{
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card {
         min-height: 0px;
     }
@@ -1529,12 +1556,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 @media (min-width: 1910.99px) and (max-width: 3000.98px) {
-        .sobre  .bloco .content .col-right .content-title{
-            font-size: 1.8em;
-    }
-    .sobre  .bloco .content .col-right p{
-        font-size: 1.2em;
-    } 
+    .sobre  .bloco .content .col-right .content-title{
+        font-size: 5em;
+}
+.sobre  .bloco .content .col-right p{
+    font-size: 1.5em;
+    font-weight: 600;
+} 
     .sobre .content .col-left .img-card {
         min-height: 0px;
     }
@@ -2474,15 +2502,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     
 }
 .Cases{
-    background-color: #fff;
+    background-color: #1d2840;
 }
 .Cases .titlo h1{
     position: relative;
-    font-size: 2.2em;
+    font-size: 3.2em;
     font-weight: 800;
     margin-bottom: 50px;
     text-align: left;
-    color:#466fa6;
+    color:#ffffff;
     top: 40px;
     margin-left: 40px;
 }
@@ -2492,12 +2520,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     flex-wrap: wrap;
     flex-direction:row;
     margin-top: 0px;
+   
 }
 .Cases .contener .card{
     background: #fff;
     width: 300px;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -2527,13 +2556,41 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-top: 10px;
     
 }
+.Cases .linha .card .infoG{
+    padding-top: 10px;
+    
+}
+.Cases .linha .card .infoG1{
+    padding-top: 10px;
+    
+}
 .Cases .contener .card .info h3{
-    font-size: 1.8em;
+    font-size: 1.77em;
     font-weight: 700;
     margin: 10px;
 }
 .Cases .contener .card .info p{
     font-size: 1em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG h3{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG p{
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG1 h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Cases .contener .card .infoG1 p{
+    font-size: 0.9em;
     font-weight: 700;
     margin: 10px;
 }
@@ -2952,10 +3009,10 @@ table td{
 }
 
 .home .slider .prev:hover {
-   color: #71db34;
+   color: #ffb701;
 }
 .home .slider  .next:hover{
-    color: #71db34;
+    color: #ffb701;
 }
 .home .slider .next{
    right: 0;
@@ -2979,13 +3036,13 @@ table td{
  
 }
 .home .slider .dotsbox .dot:hover{
-    border-color: #71db34;
+    border-color: #ffb701;
 }
 .home .slider .dotsbox .active{
-   border-color: #71db34;
+   border-color: #ffb701;
 }
 .home .slider .myslider .transparente{
-   background: #0000008a;
+   background: #0000007e;
    width: 100%;
    height: 100%;
    position: absolute;
@@ -3079,7 +3136,7 @@ table td{
     
     .home .slider .myslider  img{
       width:400px;
-      height: 400px;
+      height: 350px;
     }
     
     
@@ -3129,7 +3186,7 @@ table td{
     
     .home .slider .myslider  img{
       width:400px;
-      height: 400px;
+      height: 300px;
     }
     
 }
@@ -3179,7 +3236,7 @@ table td{
     
     .home .slider .myslider  img{
       width:500px;
-      height: 500px;
+      height: 400px;
     }
     
 }
@@ -3227,7 +3284,7 @@ table td{
     }
     
     .home .slider .myslider  img{
-      width:700px;
+      width:650px;
       height: 500px;
     }
     
@@ -3255,8 +3312,88 @@ table td{
     }
     
     .home .slider .myslider  img{
+      width:750px;
+      height: 500px;
+    }
+    
+}
+@media (min-width: 700.1px) and (max-width: 900px){
+
+    
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 20px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 15px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
       width:900px;
       height: 500px;
+    }
+    
+}
+
+@media (min-width: 900.1px) and (max-width: 1800px){
+
+    
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 50px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 20px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:1700px;
+      height: 650px;
+    }
+    
+}
+
+@media (min-width: 1800.1px) and (max-width: 2000px){
+
+    
+    .home .slider .myslider .text{
+        padding: 10px;
+    }
+    
+    .home .slider .myslider .text h1{
+        font-weight:bold;
+        font-size: 50px;
+        padding-left: 10px;
+        
+    }
+   
+    .home .slider .myslider .text p{
+       font-weight:bold;
+       font-size: 20px;
+       padding-left: 10px;
+    }
+    
+    .home .slider .myslider  img{
+      width:2000px;
+      height: 800px;
     }
     
 }
